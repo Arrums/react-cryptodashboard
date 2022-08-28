@@ -15,7 +15,14 @@ Cryptocurrency dashboard built using ReactJS.
 - [x] ReactJs
 - [x] React Router DOM
 - [x] Material UI
+- [x] ChartJs
 - [x] Coin Gecko API
 - [x] Git and Github
 
 ### Features to implemented
+
+- [ ] Authorization & Watchlist
+
+### Credits
+
+Website Icons from Icons8
