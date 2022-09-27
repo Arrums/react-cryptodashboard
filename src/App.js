@@ -1,6 +1,6 @@
 import "./App.css";
 
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import { styled, ThemeProvider } from "@mui/material/styles";
 import Header from "./Components/Header/Header";
 import Home from "./Container/Home/Home";
@@ -15,7 +15,7 @@ function App() {
 	}));
 
 	return (
-		<Router>
+		<HashRouter>
 			<ThemeProvider theme={theme}>
 				<ApplicationDiv>
 					<Header />
@@ -25,7 +25,7 @@ function App() {
 					</Routes>
 				</ApplicationDiv>
 			</ThemeProvider>
-		</Router>
+		</HashRouter>
 	);
 }
 
